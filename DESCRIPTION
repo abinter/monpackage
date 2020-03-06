@@ -1,0 +1,23 @@
+Package: monpackage
+Title: Toolbox of useful R functions
+Version: 1.0.0
+Authors@R: person("Anne-Claire", "Binter", email = "anne-claire.binter@univ-rennes1.fr", role = c("aut", "cre"))
+Description: This package is composed of all useful libraries and packages to work with R (descriptive stats, graphics, imputations, etc.)
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    magrittr,
+    survival,
+    stats,
+    RColorBrewer,
+    corrplot,
+    grid,
+    forestplot,
+    e1071
+RoxygenNote: 7.0.2

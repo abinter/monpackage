@@ -1,1 +1,1 @@
-monpackage
+This repository enables to build a R package of useful functions.
